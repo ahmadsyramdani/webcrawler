@@ -1,7 +1,7 @@
 
 # Web Crawler Sample
 
-Web Crawler Sample is using Nokogiri to specific data from a website.
+Web Crawler Sample is using Nokogiri to get specific data from a website.
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ git@github.com:ahmadsyramdani/webcrawler.git
 ```
 Open tab terminal (1)
 cd projectpath
-cd projectpath$ ./setup
+projectpath$ ./setup
 ```
 #### Start to crawler & Run App
 ```
