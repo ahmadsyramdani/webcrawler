@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+DIR=`dirname "$0"`; SCRIPT_PATH=`eval "cd \"$SCRIPT_PATH\" && pwd"`
+project_bin_dir = File.join(File.dirname(File.expand_path(__FILE__)))
+puts project_bin_dir
+cmd = "cd #{project_bin_dir}; bundle install; rake db:create; rake db:migrate; rails g rails_admin:install admin; redis-server"
+puts cmd
+system cmd

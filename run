@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+DIR=`dirname "$0"`; SCRIPT_PATH=`eval "cd \"$SCRIPT_PATH\" && pwd"`
+
+ruby $DIR/main.rb $1
+rails s -p4000
